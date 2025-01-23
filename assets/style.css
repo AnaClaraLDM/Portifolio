@@ -4,10 +4,8 @@ body{
     background: #F5F5F5;
 }
 .container{
-    padding: 34px 135px 92px 135px;
-    width:1440px;
+    max-width:1440px;
     height:1394px;
-    border: 1px solid black;
 }
 .flex{
     display: flex;
@@ -16,11 +14,27 @@ body{
     .flex{
         flex-direction: column;
     }
+    .container{
+        max-width: 100%;
+    }
+    body{
+        padding: 10px;
+    }
+    .apresentacao{
+        max-width: 100%;
+    }
+    .descrição{
+        max-width: 100%;
+    }
+    .sites{
+        width: 100%;
+    }
 }
-
+header{
+    gap:10px;
+}
 .apresentacao{
-    width: 369px;
-    height: 344px;
+    max-width: 369px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
@@ -50,10 +64,6 @@ body{
     color: #FFC107;
 }
 
-header img {
-    width: 369px;
-    height: 260px;
-}
 
 h3, h4, p{
     margin: 0;
@@ -65,8 +75,9 @@ p{
 
 .sites{
     width: 270px;
-    min-height: 284px;
+    height: 284px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
 }
 main h3{
     margin: 0px 0px 34px;
@@ -76,9 +87,8 @@ main{
     margin: 71px 0px 91px;
 }
 
-.sites img{
-    width: 270px;
-    height: 160px;
+img{
+    width:100%;
 }
 
 .wrap{
