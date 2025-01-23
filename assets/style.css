@@ -5,7 +5,6 @@ body{
 }
 .container{
     max-width:1440px;
-    height:1394px;
 }
 .flex{
     display: flex;
@@ -18,17 +17,22 @@ body{
         max-width: 100%;
     }
     body{
-        padding: 10px;
+        padding: 16px;
     }
     .apresentacao{
         max-width: 100%;
+        margin-right: 0;
     }
-    .descrição{
-        max-width: 100%;
+    .descricao{
+        width: auto;
     }
     .sites{
         width: 100%;
     }
+    .footer{
+        margin: auto;
+    }
+
 }
 header{
     gap:10px;
