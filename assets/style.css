@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sora:wght@100..800&display=swap');
+body{
+    font-family: Lato;
+    background: #F5F5F5;
+}
+.container{
+    max-width:1440px;
+}
+.flex{
+    display: flex;
+}
+@media (max-width:600px){
+    .flex{
+        flex-direction: column;
+    }
+    .container{
+        max-width: 100%;
+    }
+    body{
+        padding: 16px;
+    }
+    .apresentacao{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .descricao{
+        width: auto;
+    }
+    .sites{
+        width: 100%;
+    }
+    footer{
+        align-items: center;
+    }
+
+}
+header{
+    gap:10px;
+}
+.apresentacao{
+    max-width: 369px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    margin-right: 82px;
+}
+
+.descricao{
+    width: 70%;
+    height: 312px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 16px;
+}
+
+.espaco{
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.nome {
+    padding: 16px;
+    gap: 8px;
+}
+
+.Destaque{
+    color: #FFC107;
+}
+
+
+h3, h4, p{
+    margin: 0;
+}
+
+p{
+    color: #6C757D;
+}
+
+.sites{
+    width: 270px;
+    height: 284px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+}
+main h3{
+    margin: 0px 0px 34px;
+    padding-bottom: 16px;
+}
+main{
+    margin: 71px 0px 91px;
+}
+
+img{
+    width:100%;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.texto{
+    padding: 16px;
+    flex-direction: column;
+}
+
+.column{
+    margin: auto;
+    flex-direction: column;
+}
+
+footer{
+    border-top: 1px solid #DEE2E6;
+    justify-content: center;
+    padding: 32px 0px 16px 0px;
+}
+

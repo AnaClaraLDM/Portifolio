@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sora:wght@100..800&display=swap');
+body{
+    margin:0px;
+}
+@media(max-width:568px){
+
+}
+header{
+    background: #C11616;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+}
