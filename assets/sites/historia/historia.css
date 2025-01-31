@@ -2,10 +2,13 @@
 body{
     margin:0px;
 }
-@media(max-width:568px){
-
+.flex{
+    display: flex;
 }
 header{
     background: #C11616;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+}
+@media(max-width:568px){
+    
 }
