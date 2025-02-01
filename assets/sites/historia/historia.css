@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sora:wght@100..800&display=swap');
 body{
+    font-family:Inter;
     margin:0px;
 }
 .flex{
@@ -8,7 +9,81 @@ body{
 header{
     background: #C11616;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 141px 21px 141px;
 }
+.container{
+    padding: 21px 141px 21px 141px;
+}
+.pading{
+    padding: 96px 227px 21px 227px;
+}
+h6{
+    margin: 0px;
+}
+h6 a{
+    color:#EB5151;
+    font-style: #EB5151;
+}
+div .pading{
+    padding-top: 35px;
+}
+section .pading{
+    padding-bottom: 0px;
+}
+.pading span{
+    align-items: center;
+    background-color: #EFF2F7;
+    padding:  2px 322px 2px 33px;
+}
+.pading span p{
+    margin-left: 32px;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 10px;
+    background-image: url(img/mensagem.svg);
+    background-repeat: no-repeat;
+    background-position: 2px 7.5px ;
+}
+.a_icenter{
+    align-items: center;
+}
+menu a{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.blog{
+    border-right: #ffffff solid 1px;
+}
+a{
+    padding: 0px 10px 0px 10px;
+}
+.site h3{
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 160%;
+    color: #ffffff;
+}
+.pesquisar{
+    column-gap: 7.5px;
+}
+header span{
+    background-color: #ffffff;
+    width: 60px;
+    height: 1px;
+    transform: rotate(90deg);
+
+}
+.titulo{
+    align-items: flex-start;
+    column-gap: 20px;
+}
+.titulo h1{
+    font-size: 40px;
+}
+
 @media(max-width:568px){
     
 }
