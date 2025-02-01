@@ -19,9 +19,6 @@ header{
 .pading{
     padding: 96px 227px 0px 227px;
 }
-h6{
-    margin: 0px;
-}
 h6 a{
     color:#EB5151;
     font-style: #EB5151;
@@ -32,10 +29,10 @@ h6 a{
 section .pading{
     margin-bottom: 0px;
 }
-.pading span{
+.pading span .flex{
     align-items: center;
     background-color: #EFF2F7;
-    padding:  2px 322px 2px 33px;
+    padding:  8px 250px 9px 33px;
 }
 .pading span p{
     margin: 0px;
@@ -47,11 +44,24 @@ section .pading{
     background-repeat: no-repeat;
     background-position: 2px 7.5px ;
 }
+
 main section h5{
     color: #707C8C;
     font-size: 21px;
     font-weight: 400;
     line-height: 160%;
+}
+section h3{
+    font-size: 26px;
+}
+.pading span h6{
+    font-size: 16px;
+    margin: 0px;
+}
+.continuar h6{
+    margin: 0px;
+    padding: 6px 25px 6px 11px;
+    background: linear-gradient(90deg, #EFF0F2 0%, rgba(249, 250, 252, 0.00) 50.31%);
 }
 .a_icenter{
     align-items: center;
