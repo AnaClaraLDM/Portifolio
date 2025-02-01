@@ -98,6 +98,21 @@ a{
     border:#EB5151 1px solid;
     padding: 4px 17px 4px 17px;
 }
+.caveira{
+    max-width: 237px;
+}
+.mascara{
+    max-width: 219px;
+}
+.olinda{
+    max-width: 80px;
+}
+.video{
+    max-width: 382px;
+}
+.china{
+    max-width: 170px;
+}
 div .categoria span{
     font-size: 12px;
     padding: 6px;
@@ -106,8 +121,15 @@ div .categoria span{
     background-repeat: no-repeat;
     background-position-y: 2px;
 }
+.midia{
+    justify-content: flex-end;
+}
+.midia a{
+    text-decoration: none;
+    color: #E62121;
+}
 .ver_categoria{
-    align-items: ;
+    justify-content: flex-end;
 }
 .pesquisar{
     column-gap: 7.5px;
@@ -118,6 +140,13 @@ header span{
     height: 1px;
     transform: rotate(90deg);
 
+}
+.galerias{
+    justify-content: space-between;
+}
+.galeria{
+    width: 580px;
+    justify-content: space-between;
 }
 .titulo{
     align-items: flex-start;
