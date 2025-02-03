@@ -23,8 +23,16 @@ h6 a{
     color:#EB5151;
     font-style: #EB5151;
 }
+.categorias{
+    justify-content: space-between;
+}
 .subtitulo{
     padding-top: 35px;
+}
+.categoria span{
+    position: absolute;
+    bottom: 10px;
+    left: 95%;
 }
 .pading span{
     align-items: center;
@@ -46,6 +54,32 @@ section .pading{
     background-image: url(img/mensagem.svg);
     background-repeat: no-repeat;
     background-position: 2px 7.5px ;
+}
+main section article h5{
+    color:#273644;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 160%;
+    margin-bottom: 0px;
+}
+article .a_icenter{
+    color: #8D9AA6;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%;
+}
+article .a_icenter a{
+    color: #3C4B58;
+}
+article span .notificacao2{
+    margin: 0px;
+    margin-left: 32px;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 10px;
+    background-image: url(img/mensagem2.svg);
+    background-repeat: no-repeat;
+    background-position: 2px 7.5px 
 }
 section .barra_vermelha{
     margin-top: 55px;
@@ -98,6 +132,7 @@ a{
     color: #ffffff;
 }
 .categoria{
+    position: relative;
     border:#EB5151 1px solid;
     padding: 4px 17px 4px 17px;
 }
@@ -145,7 +180,8 @@ header span{
 
 }
 .galerias{
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 100px;
 }
 .galeria{
     width: 580px;
@@ -187,6 +223,7 @@ header span{
 .post p{
     font-size: 14px;
 }
+
 @media(max-width:568px){
     
 }
