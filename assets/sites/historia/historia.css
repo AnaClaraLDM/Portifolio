@@ -26,6 +26,9 @@ h6 a{
 .subtitulo{
     padding-top: 35px;
 }
+.pading span{
+    align-items: center;
+}
 section .pading{
     margin-bottom: 0px;
 }
@@ -34,7 +37,7 @@ section .pading{
     background-color: #EFF2F7;
     padding:  8px 250px 9px 33px;
 }
-.pading span p{
+.pading span .notificacao{
     margin: 0px;
     margin-left: 32px;
     font-size: 12px;
@@ -124,7 +127,7 @@ div .categoria span{
 .midia{
     justify-content: flex-end;
 }
-.midia a{
+.midia .red{
     text-decoration: none;
     color: #E62121;
 }
