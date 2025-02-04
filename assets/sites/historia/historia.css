@@ -338,6 +338,12 @@ footer h3{
     .subtitulo .background h6,.subtitulo h5, .subtitulo .continuar,.ver_categoria{
         font-size: 10px;
     }
+    section .pading h3{
+        font-size: 20px;
+    }
+    main section article h5, .post h6{
+        font-size: 16px;
+    }
     
     
 }
