@@ -11,7 +11,6 @@ header{
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
     justify-content: space-between;
     align-items: center;
-    padding: 21px 141px 21px 141px;
 }
 .container{
     padding: 21px 141px 21px 141px;
@@ -40,12 +39,12 @@ h6 a{
 section .pading{
     margin-bottom: 0px;
 }
-.pading span .flex{
+.background{
     align-items: center;
     background-color: #EFF2F7;
     padding:  8px 250px 9px 33px;
 }
-.pading span .notificacao{
+.background .notificacao{
     margin: 0px;
     margin-left: 32px;
     font-size: 12px;
@@ -79,7 +78,7 @@ article span .notificacao2{
     padding: 10px;
     background-image: url(img/mensagem2.svg);
     background-repeat: no-repeat;
-    background-position: 2px 7.5px 
+    background-position: 3px 10px 
 }
 section .barra_vermelha{
     margin-top: 55px;
@@ -100,6 +99,13 @@ section h3{
     font-size: 26px;
     font-weight: 300;
     color: #8D9AA6;
+
+}
+.galerias h3{
+    color:  #EB5151;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 160%;
 }
 h6{
     margin: 0px;
@@ -121,9 +127,7 @@ menu a{
 .blog{
     border-right: #ffffff solid 1px;
 }
-a{
-    padding: 0px 10px 0px 10px;
-}
+
 .site h3{
     font-size: 21px;
     font-style: italic;
@@ -167,7 +171,12 @@ div .categoria span{
     color: #E62121;
 }
 .ver_categoria{
+    padding-top: 18px;
+    padding-bottom: 90px;
     justify-content: flex-end;
+}
+.ver_categoria a{
+    color: #8D9AA6;
 }
 .pesquisar{
     column-gap: 7.5px;
@@ -177,7 +186,16 @@ header span{
     width: 60px;
     height: 1px;
     transform: rotate(90deg);
-
+}
+.tpost{
+    margin: 0px;
+}
+.stpost{
+    margin: 0px 0px 35px 0px;
+    color: var(--neutras-Gray, #8D9AA6);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
 }
 .galerias{
     justify-content: center;
@@ -211,6 +229,7 @@ header span{
 
 }
 .espaco{
+    margin: 17px 0px 123px 0px;
     justify-content: space-between;
 }
 .post h6{
@@ -223,7 +242,102 @@ header span{
 .post p{
     font-size: 14px;
 }
+figure{
+    width: 100%;
+    height: 52px;
+    margin: 0px;
+    background-color: #EFF2F7;
+    justify-content: center;
+}
+footer section{
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    justify-content: space-between;
+    background-color: #F9FAFC;
+}
+footer section div{
+    flex-direction: column;
 
-@media(max-width:568px){
+}
+.blog{
+    text-decoration: underline;
+}
+footer a{
+    color: #3C4B58;
+    text-decoration: none;
+}
+footer h3{
+    color: #C11616;
+    font-size: 21px;
+    font-style: italic;
+    line-height: 160%;
+}
+.barra_vermelha2{
+    width: 60px;
+    height: 1px;
+    background:#C11616;
+    margin: 23px 0px 7px 20px;
+}
+@media (max-width: 568px) {
+    .container{
+        padding: 20px 37px 20px 37px;
+    }
+    header .site img{
+        width: 130px;
+    }
+    .a_icenter .pesquisar img{
+        width: 18px;
+    }
+    header .site span,
+    header .site h3,
+    .a_icenter .pesquisar .linha,
+    header menu a,
+    main .titulo img, 
+    .subtitulo p, 
+    .continuar img, 
+    .midia img,
+    .background .data,
+    .categoria span{
+        display:none;
+    }
+    .continuar h6{
+        text-decoration: underline;
+        padding: 0px;
+        background: none;
+    }
+    .galerias{
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .galeria img{
+        width: 90%;
+        height: auto;
+    }
+    .galeria{
+        width: 100%;
+    }
+    .midia{
+        justify-content: flex-start;
+        text-decoration: underline;
+        color: #E62121;
+    }
+    .container h3, .galerias h3{
+        font-size: 18px;
+    }
+    .categoria, .galeria, article p, .stpost, .post p, .espaco a{
+        font-size: 12px;
+    }
+    .titulo h1{
+        font-size: 24px;
+    }
+    .pading{
+        padding: 0px 24px 0px 24px;
+    }
+    .background{
+        padding: 8px 16px 8px 16px;
+    }
+    .subtitulo .background h6,.subtitulo h5, .subtitulo .continuar,.ver_categoria{
+        font-size: 10px;
+    }
+    
     
 }
