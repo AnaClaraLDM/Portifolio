@@ -98,6 +98,32 @@ main p{
     align-items: flex-end;
     flex-direction: column;
 }
+.textoprincipal{
+    margin: 69.32px 0px 76px 0px;
+}
+.especialistas{
+    color: #2648A1;
+    font-size: 14px;
+    font-weight: 500;
+}
+main h2{
+    color: #2648A1;
+    font-size: 24px;
+    font-weight: 700;
+}
+.barra{
+    margin: 7px 0px 27px 0px;
+    width: 100px;
+    height: 4px;
+    background: var(--Gradiente-Laranja, linear-gradient(90deg, #E79A30 0.27%, #E8B743 99.65%));
+}
+.pipa{
+    width: 485px;
+}
+.especialidades{
+    max-width: 623px;
+    position: relative;
+}
 
 footer{
     background: linear-gradient(130deg,#0D3F82 23.84%,#001736 73.02%);
