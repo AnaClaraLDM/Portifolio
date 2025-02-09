@@ -1,0 +1,14 @@
+
+
+body{
+ margin: 0px;
+}
+.flex{
+    display: flex;
+}
+header{
+    background-color: #203C86;
+}
+header p{
+    margin: 0px;
+}
