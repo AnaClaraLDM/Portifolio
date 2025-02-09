@@ -1,14 +1,111 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Paytone+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
- margin: 0px;
+    font-family: "Montserrat", serif;
+    margin: 0px;
 }
 .flex{
     display: flex;
 }
 header{
+    color: #ffffff;
     background-color: #203C86;
 }
-header p{
+p{
+    margin: 0px;
+    width: auto;
+    font-size: 11px;
+    font-weight: 300;
+}
+header .seguir{
+    padding: 12px;
+    justify-content: flex-end;
+}
+header .seguir menu{
+    padding-left: 53px;
+    column-gap: 20px;
+}
+.containerhf{
+    max-width: 1200px;
+    margin: auto;
+}
+header div menu{
     margin: 0px;
 }
+hr{
+    margin: 0px;
+}
+header i{
+    color: #FFC82C;
+}
+.header2{
+    padding: 12px;
+    justify-content: space-between;
+}
+.menu2{
+    column-gap: 43px;
+}
+header .menu2 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 28px;
+}
+header .menu2 a:hover{
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: #FFC82C solid 4px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.barras{
+    display: none;
+}
+.container{
+    margin: auto;
+    max-width: 1440px;
+}
+.container2{
+    margin: auto;
+    max-width: 781px;
+}
+h1, h2, h3{
+    margin: 0px;
+}
+main p{
+    font-family: "Lato", serif;
+}
+h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+main{
+    margin-top: 98px;
+}
+main h3{
+    color:#2648A1;
+    font-size: 21px;
+    font-weight: 400;
+}
+main p{
+    color: #3C4858;
+    font-size: 21px;
+    font-weight: 400;
+}
+.subtitulo{
+    margin: 32px 0px 45px 0px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+footer{
+    background: linear-gradient(130deg,#0D3F82 23.84%,#001736 73.02%);
+}
+footer .container2{
+    justify-content: space-between;
+}
+.experience{
+    width: 272px;
+}
+
