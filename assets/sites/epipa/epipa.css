@@ -41,7 +41,7 @@ header i{
     color: #FFC82C;
 }
 .header2{
-    padding: 12px;
+    padding: 12px 0px 1px 0px;
     justify-content: space-between;
 }
 .menu2{
