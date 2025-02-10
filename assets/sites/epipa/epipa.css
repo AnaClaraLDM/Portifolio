@@ -9,6 +9,7 @@ body{
     display: flex;
 }
 header{
+    width: 100%;
     color: #ffffff;
     background-color: #203C86;
 }
@@ -70,7 +71,7 @@ header .menu2 a:hover{
     margin: auto;
     max-width: 781px;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     margin: 0px;
 }
 main p{
@@ -97,6 +98,7 @@ main p{
     margin: 32px 0px 45px 0px;
     align-items: flex-end;
     flex-direction: column;
+    text-align: right;
 }
 .textoprincipal{
     margin: 69.32px 0px 76px 0px;
@@ -123,9 +125,53 @@ main h2{
 .especialidades{
     max-width: 623px;
     position: relative;
+    margin-bottom: 356px;
+}
+.especialidades .imagem{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.imagem img{ 
+    position: relative;
+    background-color: white;
+    z-index: 2
+}
+.legenda{
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 439px;
+    height: 506px;
+    padding: 0px 0px 11px 17px;
+    border-radius: 10px;
+    border: 1px solid #2648A1;
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    z-index: 1;
+    color: #2648A1;
+}
+.legendas div{
+    font-size: 18px;
+    font-weight: 700;
+}
+.legendas small{
+    font-size: 13px;
 }
 
+.container .legendas{
+    margin-top: -15px;
+    padding-left: 10px;
+    color: #3C4858;
+}
+.container{
+    margin-top: 16px;
+    margin-bottom:113px ;
+}
 footer{
+    color:#E0E6ED;
+    font-family: "Lato", serif;
+    padding: 60px 0px 60px 0px;
     background: linear-gradient(130deg,#0D3F82 23.84%,#001736 73.02%);
 }
 footer .container2{
@@ -133,5 +179,116 @@ footer .container2{
 }
 .experience{
     width: 272px;
+    flex-direction: column;
+    align-items: center;
+    gap: 47px;  
 }
-
+.experience ul{
+    flex-direction: column;
+    padding-left: 0px;
+    list-style: none;
+    gap:24px;
+}
+.experience ul li {
+    column-gap: 24px;
+    align-items: center;
+}
+.experience ul li span{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 140%;
+}
+.experience ul li span:hover{
+    font-weight: 700;
+}
+.informacoes{
+    width: 496px;
+    flex-direction: column;
+    row-gap: 21px;
+}
+.informacoes div p{
+    font-size: 14px;
+    line-height: 140%;
+}
+.link{
+    flex-direction: column;
+    row-gap:10px;
+    font-size: 14px;
+    line-height: 180%;
+}
+.link a{
+    color:#E0E6ED;
+    text-decoration: none;
+}
+.link a:hover{
+    font-weight: 900;
+}
+.links{
+    column-gap: 24px;
+}
+.card{
+    width: 221px;
+    height: 188px;
+    border-radius: 6px;
+    background: #FFF;
+    padding: 32px 24px 32px 24px;
+    flex-direction: column;
+    row-gap: 37px;
+    
+}
+.card h4{
+    color: #1F2D3D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 180%
+}
+.card p{
+    color: #8492A6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%; 
+}
+footer .containerhf{
+    justify-content: space-between;
+}
+button{
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3.509px;
+    background-color: #3A95E9;
+    padding: 12px 22px;
+    column-gap: 27px;
+}
+footer .cardtexto{
+    flex-direction: column;
+    row-gap: 15px;
+}
+@media (max-width:568px){
+    header .seguir, hr, .header2 .menu2{
+        display: none;
+    }
+    .barras{
+        align-content: center;
+        display: block;
+    }
+    .container2, .container{
+        padding: 0px 12px;
+    }
+    .especialidades{
+        max-width: 623px;
+        position: static;
+        margin-bottom: 356px;
+    }
+    .especialidades .imagem{
+        position: static;
+        top: 100px;
+        left: 500px;
+    }
+    .imagem img{ 
+        position: static;
+        width: 100%;
+    }
+    .legenda{
+        position: static;
+    }
+}
