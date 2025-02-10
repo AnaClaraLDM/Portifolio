@@ -123,34 +123,42 @@ main h2{
     width: 485px;
 }
 .especialidades{
+    flex-direction: column;
     max-width: 623px;
     position: relative;
-    margin-bottom: 356px;
+    margin-bottom: 266px;
 }
 .especialidades .imagem{
     position: absolute;
     top: 100px;
     left: 500px;
 }
-.imagem img{ 
-    position: relative;
-    background-color: white;
-    z-index: 2
+.d-block{display: block;
 }
-.legenda{
-    justify-content: flex-end;
-    flex-direction: column;
-    width: 439px;
-    height: 506px;
-    padding: 0px 0px 11px 17px;
-    border-radius: 10px;
-    border: 1px solid #2648A1;
-    position: absolute;
-    top: 7px;
-    left: 15px;
-    z-index: 1;
+.card{
+    border-radius: .25em;
+    display: block;
     color: #2648A1;
+    border: 1px solid;
+    text-decoration: none;
+    width: 300px;
+    height: 300px;
+    margin-top: 13px;
 }
+.card figure{
+    margin: 0;
+}
+.card figure img{
+    max-width: 100%;
+    transform: scale(120%);  
+    margin-bottom: 0.75em;
+}
+.card figure figcaption{
+    padding: 1em;
+    border: 1px solid #2648A1;
+    border-radius: 3.09px;
+}
+  
 .legendas div{
     font-size: 18px;
     font-weight: 700;
@@ -174,9 +182,7 @@ footer{
     padding: 60px 0px 60px 0px;
     background: linear-gradient(130deg,#0D3F82 23.84%,#001736 73.02%);
 }
-footer .container2{
-    justify-content: space-between;
-}
+
 .experience{
     width: 272px;
     flex-direction: column;
@@ -226,8 +232,8 @@ footer .container2{
 .links{
     column-gap: 24px;
 }
-.card{
-    width: 221px;
+.card2{
+    max-width: 221px;
     height: 188px;
     border-radius: 6px;
     background: #FFF;
@@ -236,13 +242,13 @@ footer .container2{
     row-gap: 37px;
     
 }
-.card h4{
+.card2 h4{
     color: #1F2D3D;
     font-size: 18px;
     font-weight: 700;
     line-height: 180%
 }
-.card p{
+.card2 p{
     color: #8492A6;
     font-size: 14px;
     font-weight: 400;
@@ -271,24 +277,43 @@ footer .cardtexto{
         align-content: center;
         display: block;
     }
-    .container2, .container{
+    .container2, .container, .containerhf{
         padding: 0px 12px;
     }
+    .especialidades .coluna{
+        flex-direction: column-reverse;
+    }
     .especialidades{
+        flex-direction: column;
         max-width: 623px;
         position: static;
-        margin-bottom: 356px;
+        margin-bottom: 99.35px;
     }
     .especialidades .imagem{
         position: static;
-        top: 100px;
-        left: 500px;
-    }
-    .imagem img{ 
-        position: static;
+        top: 0px;
+        left: 0px;
         width: 100%;
+        justify-content: center;
     }
-    .legenda{
-        position: static;
+    .especialidades .coluna{
+        flex-direction: column-reverse;
+        row-gap: 120px;
+    }
+    .img{
+        width: 98%;
+    }
+    .pipa{
+        max-width: 100%;
+    }
+    .container{
+        overflow: hidden;
+    }
+    footer .containerhf{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .informacoes, .card2{
+        max-width: 100%;
     }
 }
