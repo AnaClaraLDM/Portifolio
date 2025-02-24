@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+.flex{
+    display: flex;
+}
+header{
+    padding: 16px 32px 16px 32px;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E7EB;
+    background: #FFF;
+}
+.funcoes{
+    column-gap: 16px;
+}
+
+.inscricao{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background:#F60;
+    padding: 0px 16px 0px 16px;
+}
+.inscricao i{
+    height: 24px;
+}
+.inscricao:hover{
+    background: #FD8535;
+}
+.barra_esquerda{
+    width: 167px;
+    border-right: 1px solid #E5E7EB;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 8px 24px 40px 24px;
+}
+.navegacao{
+    
+}
+main{
+
+}
