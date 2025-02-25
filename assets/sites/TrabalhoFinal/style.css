@@ -129,4 +129,12 @@ main{
 .card{
     width: 219px;
     height: 114px;
+    font-family: "Inter", sans-serif;
+    border-radius: 6px;
+    color: #2E96C9;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    background: #F2F9FD;   
+    flex-direction: column; 
 }
