@@ -95,5 +95,38 @@ main{
     font-size: 24px;
     font-weight: 700;
     line-height: 120%;
+    margin: 0px;
 }
+.dados{
+    font-family: "Inter", sans-serif;
+    column-gap: 16px;
+    color: #797D84;
+    align-items: center;
+}
+.dados div{
+    column-gap: 6px;
+}
+.dados div span{
+    font-size: 16px;
+}
+.dados .stroke{
+    color: #1A1C20;
+    font-weight: 700;
+    line-height: 150%
+}
+.header{
+    width: 850px;
+    justify-content: space-between;
+}
+.header .editar{
 
+}
+/*.................................................................................................................*/
+
+.cards{
+    justify-content: space-between;
+}
+.card{
+    width: 219px;
+    height: 114px;
+}
