@@ -240,8 +240,28 @@ button svg{
 .grafico{
     height: 81px;
     align-items: center;
-    border-radius: 4px;
+
 }
 .grafico .item{
+    width: 57px;
+    height: 81px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+._33{
+    background: #2E96C9;
+    border-radius: 4px 0px 0px 4px;
+}
+._30_1{
+    background: #4FADDB;}
+._30_2{
+    background: #90CAE9;
+}
+._7{
+    background: #E4F1FA;
+    border-radius:  0px 4px 4px 0px ;
+}
+.item small{
     
 }
