@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Archivo:wght@100..900&family=Montserrat:wght@100..900&family=Roboto:wght@100..900&display=swap');
+
 body{
     margin: 0px;
 }
@@ -77,10 +79,12 @@ main{
     padding: 10px;
 }
 .menu_footer{
+    justify-content: space-between;
     padding-top: 24px;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    border-top: 1px solid #E7EBF2;
 }
 .title{
     justify-content: space-between;
@@ -131,6 +135,10 @@ main{
     line-height: 120%;
     color: #0F6ECD;
 
+}
+.funcao{
+    flex-direction: column;
+    row-gap: 16px;
 }
 /*.................................................................................................................*/
 
@@ -194,12 +202,19 @@ button svg{
     border: 1px dashed #4FADDB;
     color: #4FADDB;
 }
+button:hover path{
+    stroke: #FFF;
+}
+button:hover, .mais_itens:hover{
+    background: #2E96C9;
+    color: #FFF;
+}
 .section_funcoes h2{
     color: #494E57;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    margin: 0px 0px 16px 0px;
+    margin: 0px;
 }
 .section_funcoes h2 span{
     font-size: 16px;
@@ -210,6 +225,8 @@ button svg{
 }
 .inscricoes_recentes{
     width: 466px;
+    flex-direction: column;
+    row-gap: 16px;
 }
 .inscricoes_recentes .linha{
     row-gap: 4px;
@@ -242,28 +259,46 @@ button svg{
 .grafico{
     height: 81px;
     align-items: center;
-
+    color: #FEFEFE;
+    font-family: "Montserrat" ;
 }
 .grafico .item{
     width: 57px;
     height: 81px;
+    padding: 0px 10px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 ._33{
     background: #2E96C9;
     border-radius: 4px 0px 0px 4px;
 }
 ._30_1{
-    background: #4FADDB;}
+    background: #4FADDB;
+}
 ._30_2{
     background: #90CAE9;
 }
 ._7{
+    color: #1A1C20;
     background: #E4F1FA;
     border-radius:  0px 4px 4px 0px ;
 }
+.item span{
+    font-size: 14px;
+    font-weight: 700;
+}
 .item small{
-    
+    font-size: 12px;
+}
+.legenda{
+    flex-flow: wrap;
+    gap: 8px 16px;
+}
+.inscricoes{
+    width: 317px;
+    flex-direction: column;
+    gap: 16px;
 }
