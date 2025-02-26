@@ -12,6 +12,18 @@ header{
     border-bottom: 1px solid #E5E7EB;
     background: #FFF;
 }
+.user{
+    justify-content: space-between;
+    width: 131px;
+    align-items: center;
+}
+.user span{
+    color: #0F3679;
+    text-align: right;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
 .funcoes{
     column-gap: 16px;
 }
@@ -177,6 +189,21 @@ main{
     flex-direction: column;
     row-gap: 8px;
 }
+.eliminado{
+    position: relative;
+    text-decoration: line-through;
+    background: white;
+}
+.eliminado::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, #FFF 77.9%);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .card_header{
     width: 100%;
     justify-content: space-between;
@@ -300,6 +327,7 @@ button svg{
     font-size: 12px;
 }
 .legenda{
+    color: #494E57;
     font-family: "Roboto",sans-serif;
     flex-flow: wrap;
     gap: 8px 16px;
@@ -397,13 +425,13 @@ button svg{
 .atividade:hover{
     background: #E3F4FE;
 }
-button:hover, button:hover svg{
+.barra_direita button:hover, .barra_direita button:hover svg{
     background: #0D5EAF;
     border: 1px solid #E5E7EB;
 }
-button:hover svg path{
+.barra_direita button:hover svg path{
     stroke: #E5E7EB;
 }
-button:hover span{
+.barra_direita button:hover span{
     color: #FFF;
 }
