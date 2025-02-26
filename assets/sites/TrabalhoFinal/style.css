@@ -31,14 +31,16 @@ header{
 }
 .barra_esquerda{
     width: 167px;
-    height: 100%;
     border-right: 1px solid #E5E7EB;
     flex-direction: column;
     padding: 8px 24px 40px 24px;
     align-items: flex-end;
+}
+.barra_esquerda .menus{
+    min-height: 100%;
+    flex-direction: column;
     justify-content: space-between;
 }
-
 .navegacao{
     height: 285px;
     flex-direction: column;
