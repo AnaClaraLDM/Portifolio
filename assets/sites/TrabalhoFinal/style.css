@@ -202,10 +202,10 @@ button svg{
     border: 1px dashed #4FADDB;
     color: #4FADDB;
 }
-button:hover path{
+.botoes button:hover path{
     stroke: #FFF;
 }
-button:hover, .mais_itens:hover{
+.botoes button:hover, .mais_itens:hover{
     background: #2E96C9;
     color: #FFF;
 }
@@ -301,4 +301,27 @@ button:hover, .mais_itens:hover{
     width: 317px;
     flex-direction: column;
     gap: 16px;
+}
+.barra_direita{
+    width: 302px;
+    padding: 48px 24px 32px 24px;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+.barra_direita button svg{
+    border-radius: 50%;
+    background-color: #E7EBF2;
+}
+.barra_direita button div{
+    position: relative;
+}
+.barra_direita button div span{
+    position: absolute;
+    background: #0F3679;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 72%;
+    padding: 4px;
+    font-size: 12px;
+    color: #E7EBF2;
 }
