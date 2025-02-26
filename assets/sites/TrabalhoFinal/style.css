@@ -60,16 +60,22 @@ main{
     column-gap: 8px;
     align-items: center;
 }
+.item_menu:active path{
+    stroke: #fff;
+}
+.item_menu:active svg{
+    background-color: #0D5EAF;
+}
 .dashboard .icon path{
     stroke: #fff;
 }
 .dashboard svg{
     background-color: #0D5EAF;
 }
-.dashboard svg:hover {
+.dashboard:hover svg{
     background-color: #F2F9FD;
 }
-.icon:hover path{
+.dashboard:hover path{
     stroke: #0D5EAF;
 }
 .item_menu:hover{
@@ -294,6 +300,7 @@ button svg{
     font-size: 12px;
 }
 .legenda{
+    font-family: "Roboto",sans-serif;
     flex-flow: wrap;
     gap: 8px 16px;
 }
@@ -330,6 +337,10 @@ button svg{
     height: 237px;
     justify-content: space-between;
     flex-direction: column;
+    margin-bottom: 24px;
+}
+.barra_direita i{
+    margin-bottom:11px ;
 }
 .barra_direita h2{
     color: #0F3679;
@@ -380,4 +391,19 @@ button svg{
     font-size: 12px;
     font-weight: 400;
 }
-
+.margem{
+    margin-bottom: 32px;
+}
+.atividade:hover{
+    background: #E3F4FE;
+}
+button:hover, button:hover svg{
+    background: #0D5EAF;
+    border: 1px solid #E5E7EB;
+}
+button:hover svg path{
+    stroke: #E5E7EB;
+}
+button:hover span{
+    color: #FFF;
+}
